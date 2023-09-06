@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.loading {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin: 50px;
+    transition: .3s width,
+        /* .3s height .6s, */
+        /* .3s margin-top .6s, */
+        .3s background-color;
+}
+
+.size {
+    width: 500px;
+    height: 50px;
+    /* margin-top: 25px; */
+}
+
+.caption {
+    background-color: black;
+}
+
+.tombol {
+    margin: 50px;
+    padding: 3px;
+    background-color: blue;
+    color: white;
+}
+
+.tombol:hover {
+    color: yellow;
+    background-color: brown;
+}
